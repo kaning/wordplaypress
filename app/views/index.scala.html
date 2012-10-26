@@ -1,7 +1,7 @@
-@(message: String)
+@(blogtitle: String="Another wordplaypress blog", message: String)
 
-@main("Welcome to Play 2.0") {
+@main(blogtitle) {
     
-    @welcome(message)
+    @message
     
 }
