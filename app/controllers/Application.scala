@@ -9,5 +9,9 @@ object Application extends Controller {
   	var blogtitle = "K. Aning's Web Log"
     Ok(views.html.index(blogtitle, "Your new application is ready."))
   }
+
+  def wppadmin = Action {
+  	Ok(views.html.admin(user))
+  }
   
 }
