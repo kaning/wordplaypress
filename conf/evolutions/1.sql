@@ -4,10 +4,6 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-
-CREATE DATABASE `wpp_blog` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-
-
 CREATE TABLE IF NOT EXISTS `wpp_commentmeta` (
   `meta_id` bigint(20) unsigned NOT NULL auto_increment,
   `comment_id` bigint(20) unsigned NOT NULL default '0',
